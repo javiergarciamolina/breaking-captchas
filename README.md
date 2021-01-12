@@ -1,7 +1,7 @@
 # Breaking Captchas
 
 ## Objective:
-In this project downloaded a dataset of captcha images and went through the whole process of splitting it into training, validation and test sets, extracting the digits from the images, labeling the ones from the training set so that we could feed them to a neural network, training a model that could succesfully learn to identify the digits, and then use this model for identifying the whole captcha images of the test set. We had 45 classes and 1236 training images.
+In this project I downloaded a dataset of captcha images and went through the whole process of splitting it into training, validation and test sets, extracting the digits from the images, labeling the ones from the training set so that I could feed them to a neural network, training a model that could succesfully learn to identify the digits, and then using this model for labeling the whole captcha images of the test set. We had 45 classes and 1236 training images.
 
 ## Result:
 Our algorithm ended up being able to, given the original images, label them like these:
