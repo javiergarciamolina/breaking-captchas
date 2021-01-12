@@ -12,7 +12,7 @@ Our algorithm ended up being able to, given the original images, label them like
 ![captcha_image5](https://user-images.githubusercontent.com/70718425/104241077-62ba4b80-545d-11eb-9c28-9d09d27b464e.png)
 
 
-Out of 36 testing images (i.e. 144 digits), our algorithm failed to recognize 4 digits, which was probably due to the digit extraction algorithm. It didn't missclassify any digit.
+Out of 36 testing images (i.e. 144 digits), our algorithm failed to recognize 4 digits, which was probably due to the digit extraction algorithm. It didn't missclassify any digit. Our model achieved a validation accuracy of 0.9677, with the equal probability benchmark accuracy being 0.022.
 
 ## Main technologies used:
 
