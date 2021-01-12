@@ -27,6 +27,7 @@ Out of 36 testing images (i.e. 144 digits), our algorithm failed to recognize 4 
 * Classic Computer Vision
 * Modern Computer Vision
 * Data Augmentation
+* Ensemble Learning
 
 ## Model:
 
