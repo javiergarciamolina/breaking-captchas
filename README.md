@@ -24,7 +24,7 @@ Out of 36 testing images (i.e. 144 digits), our algorithm failed to recognize 4 
 ## Main techniques used:
 
 * Deep Learning
-* Classic Computer Vision
+* Classical Computer Vision
 * Modern Computer Vision
 * Data Augmentation
 * Ensemble Learning
