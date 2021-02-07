@@ -42,9 +42,11 @@ With each model, I increased the complexity and the regularization of the previo
 
 |  Model | Validation Accuracy  | 
 |---|---| 
+|  Equal Probability Benchmark |  0.022 |
 | LeNet  |  0.943               |
 | VGG1  | 0.968  |
 |  VGG2 |  0.972 |
+
 
 I finally chose the last model, trained and saved it 5 times and used the trained models for ensemble learning.
 
@@ -52,6 +54,7 @@ I finally chose the last model, trained and saved it 5 times and used the traine
 
 I built a function that would extract the digits from the test images, label them using the ensemble of models trained in the last step, and write the label on the full captcha image. 
 Here are some results (of the test images):
+
 ![captcha_image1](https://user-images.githubusercontent.com/70718425/104241021-4f0ee500-545d-11eb-8a14-bcd5dd128762.png)
 ![captcha_image2](https://user-images.githubusercontent.com/70718425/104241064-5cc46a80-545d-11eb-9b2c-aef2a6ab581c.png)
 ![captcha_image3](https://user-images.githubusercontent.com/70718425/104241067-5e8e2e00-545d-11eb-8b15-1a65c996b2de.png)
